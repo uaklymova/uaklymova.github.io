@@ -1,0 +1,65 @@
+.footPrints{
+	margin-top: 5em; 
+	padding-right: 2em;
+
+}
+/*.footPrints img{
+	max-width: 100%;
+    height: auto;
+}
+*/
+@-webkit-keyframes  fp{
+	0%{opacity: 0.0;}
+	50%{opacity: 0.0;}
+	99%{opacity: 0.0;}
+	100%{opacity: 1.0;}
+}
+#fp-1{
+	margin-top: 10px;
+	animation: linear 0.5s fp;
+}
+#fp-2{
+	margin-bottom:30px;
+	margin-left: 30px; 
+	animation: linear 1.0s fp;
+}
+#fp-3{
+	margin-top: 30px;
+	margin-left: 30px; 
+	animation: linear 2.0s fp;
+}
+#fp-4{
+	position: absolute;
+	margin-top: -1em;
+	margin-left: 17em; 
+	animation: linear 3.0s fp;
+}
+#fp-5{
+	position: absolute;
+	margin-top: 2em;
+	margin-left: 22em; 
+	animation: linear 4.0s fp;
+}
+#fp-6{
+	position: absolute;
+	margin-top: 7em;
+	margin-left: 21em; 
+	animation: linear 5.0s fp;
+}
+/*#fp-4{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 30px; 
+	animation: linear 3.0s fp;
+}#fp-5{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 50px; 
+	animation: linear 4.0s fp;
+}
+#fp-6{
+	position: absolute;
+	margin-top: 290px;
+	margin-left: 50px; 
+	animation: linear 5.0s fp;
+}*/

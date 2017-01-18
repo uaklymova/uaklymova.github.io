@@ -1,0 +1,167 @@
+@font-face {
+	font-family: a_FuturaOrtoLt;
+	font-weight: normal;
+	src:url('../css/fonts/a_FuturaOrtoLt Light.TTF');
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+		height: 100%;
+		max-width: 1920px;
+		min-width: 320px;
+		margin: 0 0 17.5em;
+}
+header, 
+main, 
+footer {
+	width: 100%;
+	display: block;
+}
+header {
+	min-height: 30em;   
+	background: url(../img/upside.png) no-repeat;
+	background-position: top;
+}
+header, 
+footer {  
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+header:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.inner {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+.outer {
+	display: block;
+	background-color: red;
+}
+.header-logo, 
+.nav-header {
+	display: inline-block;
+	min-width: 250px;
+	vertical-align: middle;
+}
+.header-logo {
+	margin-left: 1.5em;
+	width: 30%;
+	padding-top: 1em;
+}
+.nav-header {
+	margin-right: 1.5em;
+	width: 55%;
+	padding-top: 1.875em;
+}
+.nav-header ul {
+	padding: 0 0 0 0;
+	li {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	a {
+		text-decoration: none;
+		color: black;
+		}
+	}
+}
+.buyNow {
+	border: 0.125em solid black;
+}
+#eyeleo {
+	margin: 1em 0 0 4em;
+}
+#eyeleo, 
+.footPrints {
+	display: inline-block;
+}
+#eyeleo img, 
+.footPrints img {
+	max-width: 100%;
+    height: auto;
+}
+.header-text, 
+.nav-header,
+.main-article {
+	font-family: "a_FuturaOrtoLt", sans-serif; 
+	text-align: center;
+	margin-top: -1em;
+}
+main {
+	article, 
+	.mac-screen, 
+	.logo-3, 
+	.buy {
+		display: inline-block;
+		text-align: center;
+		width: 49%;
+		vertical-align: middle;
+		}
+	.mac-screen img, 
+	.logo-3 img  {
+    max-width: 100%;
+    height: auto;
+	}
+	.logo-3 p{
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 3em;
+	}
+	.buy button {
+		background-color: #347a51;
+		border: none;
+    	color: black;
+    	padding: 15px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 1.5em;
+	}
+	.outer {
+		background-color: #f5f9f7;
+	}
+	.first {
+		margin-bottom: 1.5em;
+	}
+}
+footer {
+	height: 17.5em;
+	background: url(../img/bottom.png) no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    ul {
+		width: 100%;
+		display: block;
+		padding: 7.5em 0 0 0;
+		li {
+			display: inline-block;
+			width: 19%;
+			vertical-align: middle;
+			padding-left: 50;
+			text-align: center;
+			a {
+				text-decoration: none;
+				color: black;
+				img {
+				max-width: 100%;
+    			height: auto;
+				}
+			}
+		}
+	}
+	div.copyright  {
+		margin-top: 3.65em;
+		text-align: center;
+	}
+}
