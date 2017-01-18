@@ -1,0 +1,76 @@
+/*@media screen and (max-width:410px) {
+body{
+	font-size: 12px;}
+
+h1{
+	font-size: 24px;}
+
+h2{
+	font-size: 18px;}
+
+#navigation li { 
+    display: inline-block;  
+    float: none;  
+    width: 50%;}  
+
+.logo img{
+	width: 30px;}
+
+.logo p{
+	font-size:14px;} 	
+    
+.logo2{
+ 	display: none;}
+}
+
+
+@media screen and (max-width: 470px) {
+.footer_content li{
+	font-size: 12px;}
+
+.footer_content li img{
+	width: 30px;}
+
+.copyright{
+	font-size:12px;}	
+
+img#eyeleo{
+	 max-width: 100%;}
+}
+
+
+@media screen and (max-width: 500px) {
+#eyeleo{
+	 max-width: 100%;}
+}
+
+@media screen and (min-width:535px) {
+nav  a#pull {
+	display: none;}
+}	*/
+@media screen and (max-width: 1030px) {
+  .footPrints {
+    display: none; } }
+@media screen and (max-width: 860px) {
+  .header-logo,
+  .nav-header {
+    display: block;
+    margin: 0 auto; } }
+@media screen and (max-width: 643px) {
+  .header-logo {
+    right: 0; }
+
+  .nav-header ul li {
+    font-size: 0.8em; } }
+@media screen and (max-width: 604px) {
+  .second .logo-3 {
+    display: none; }
+  .second .buy {
+    margin: 0 auto;
+    width: 100%; } }
+/*TO DO footer view in less than 416px*/
+@media screen and (max-width: 416px) {
+  .nav-footer ul li a {
+    width: 0.5em; } }
+
+/*# sourceMappingURL=media.css.map */
